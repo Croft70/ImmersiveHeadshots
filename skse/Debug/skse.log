@@ -1,0 +1,299 @@
+﻿Build started 05-Sep-17 12:44:20 PM.
+     1>Project "C:\Users\croft\Desktop\ASD\Skyrim_SKSE_modding\plugin_example\skse\skse.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets(1610,5): warning : The referenced project '..\..\common\common_vc9.vcxproj' does not exist.
+     1>PrepareForBuild:
+         Creating directory "Debug\skse.tlog\".
+       InitializeBuildStatus:
+         Creating "Debug\skse.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\Users\croft\Desktop\ASD\Skyrim_SKSE_modding\plugin_example\\skse /IC:\Users\croft\Desktop\ASD\Skyrim_SKSE_modding\plugin_example\ /IC:\Users\croft\Desktop\ASD\Skyrim_SKSE_modding\plugin_example\\.. /I\Include /IC:\Users\croft\Desktop\ASD\Skyrim_SKSE_modding\plugin_example\\..\common /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D RUNTIME /D RUNTIME_VERSION=0x09200000 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\skse.pdb" /Gd /TP /FIcommon/IPrefix.h /analyze- /errorReport:prompt CommandTable.cpp GameTypes.cpp PapyrusActiveMagicEffect.cpp PapyrusActor.cpp PapyrusActorBase.cpp PapyrusActorValueInfo.cpp PapyrusAlias.cpp PapyrusAmmo.cpp PapyrusArmor.cpp PapyrusArmorAddon.cpp PapyrusArt.cpp PapyrusBook.cpp PapyrusCell.cpp PapyrusColorForm.cpp PapyrusCombatStyle.cpp PapyrusConstructibleObject.cpp PapyrusDefaultObjectManager.cpp PapyrusEnchantment.cpp PapyrusEquipSlot.cpp PapyrusFlora.cpp PapyrusForm.cpp PapyrusGame.cpp PapyrusHeadPart.cpp PapyrusIngredient.cpp PapyrusInput.cpp PapyrusKeyword.cpp PapyrusLeveledActor.cpp PapyrusLeveledItem.cpp PapyrusLeveledSpell.cpp PapyrusMagicEffect.cpp PapyrusMath.cpp PapyrusMisc.cpp PapyrusModEvent.cpp PapyrusNetImmerse.cpp PapyrusObjectReference.cpp PapyrusPerk.cpp PapyrusPotion.cpp PapyrusQuest.cpp PapyrusRace.cpp PapyrusScroll.cpp PapyrusShout.cpp PapyrusSKSE.cpp PapyrusSound.cpp PapyrusSoundDescriptor.cpp PapyrusSpell.cpp PapyrusStringUtil.cpp PapyrusTextureSet.cpp PapyrusTree.cpp PapyrusUI.cpp PapyrusUICallback.cpp PapyrusUtility.cpp PapyrusWeapon.cpp PapyrusWeather.cpp PapyrusWornObject.cpp PapyrusArgs.cpp PapyrusClass.cpp PapyrusNativeFunctions.cpp PapyrusVM.cpp PapyrusEvents.cpp PapyrusObjects.cpp GameAPI.cpp GameCamera.cpp GameData.cpp GameEvents.cpp GameExtraData.cpp GameFormComponents.cpp GameForms.cpp GameHandlers.cpp GameInput.cpp GameMenus.cpp GameObjects.cpp GamePathing.cpp GameResources.cpp GameRTTI.cpp GameSettings.cpp GameStreams.cpp GameThreads.cpp ScaleformAPI.cpp ScaleformCallbacks.cpp ScaleformExtendedData.cpp ScaleformLoader.cpp ScaleformMovie.cpp ScaleformState.cpp ScaleformTypes.cpp ScaleformVM.cpp Hooks_Camera.cpp Hooks_Debug.cpp Hooks_DirectInput8Create.cpp Hooks_Event.cpp Hooks_Gameplay.cpp Hooks_Handlers.cpp Hooks_Memory.cpp Hooks_NetImmerse.cpp Hooks_ObScript.cpp Hooks_Papyrus.cpp Hooks_SaveLoad.cpp Hooks_Scaleform.cpp Hooks_Threads.cpp Hooks_UI.cpp Colors.cpp CustomMenu.cpp GlobalLocks.cpp HashUtil.cpp InputMap.cpp InternalSerialization.cpp PluginManager.cpp SafeWrite.cpp Serialization.cpp Translation.cpp Utilities.cpp NiControllers.cpp NiExtraData.cpp NiGeometry.cpp NiInterpolators.cpp NiLight.cpp NiMaterial.cpp NiNodes.cpp NiObjects.cpp NiProperties.cpp NiRenderer.cpp NiRTTI.cpp NiSerialization.cpp NiTextures.cpp NiTypes.cpp skse.cpp
+         skse.cpp
+         NiTypes.cpp
+         NiTextures.cpp
+         NiSerialization.cpp
+         NiRTTI.cpp
+         NiRenderer.cpp
+         NiProperties.cpp
+         NiObjects.cpp
+         NiNodes.cpp
+         NiMaterial.cpp
+         NiLight.cpp
+         NiInterpolators.cpp
+         NiGeometry.cpp
+         NiExtraData.cpp
+         NiControllers.cpp
+         Utilities.cpp
+     1>c:\users\croft\desktop\asd\skyrim_skse_modding\plugin_example\skse\utilities.cpp(183): warning C4996: 'GetVersionExA': was declared deprecated
+         c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(433): note: see declaration of 'GetVersionExA'
+         Translation.cpp
+         Serialization.cpp
+         SafeWrite.cpp
+         PluginManager.cpp
+         Generating Code...
+         Compiling...
+         InternalSerialization.cpp
+         InputMap.cpp
+         HashUtil.cpp
+         GlobalLocks.cpp
+         CustomMenu.cpp
+         Colors.cpp
+         Hooks_UI.cpp
+         Hooks_Threads.cpp
+         Hooks_Scaleform.cpp
+         Hooks_SaveLoad.cpp
+         Hooks_Papyrus.cpp
+         Hooks_ObScript.cpp
+         Hooks_NetImmerse.cpp
+         Hooks_Memory.cpp
+         Hooks_Handlers.cpp
+         Hooks_Gameplay.cpp
+         Hooks_Event.cpp
+         Hooks_DirectInput8Create.cpp
+         Hooks_Debug.cpp
+     1>c:\program files (x86)\windows kits\8.1\include\um\dbghelp.h(1544): warning C4091: 'typedef ': ignored on left of '' when no variable is declared
+     1>c:\program files (x86)\windows kits\8.1\include\um\dbghelp.h(3190): warning C4091: 'typedef ': ignored on left of '' when no variable is declared
+         Hooks_Camera.cpp
+         Generating Code...
+         Compiling...
+         ScaleformVM.cpp
+         ScaleformTypes.cpp
+         ScaleformState.cpp
+         ScaleformMovie.cpp
+         ScaleformLoader.cpp
+         ScaleformExtendedData.cpp
+         ScaleformCallbacks.cpp
+         ScaleformAPI.cpp
+         GameThreads.cpp
+         GameStreams.cpp
+         GameSettings.cpp
+         GameRTTI.cpp
+         GameResources.cpp
+         GamePathing.cpp
+         GameObjects.cpp
+         GameMenus.cpp
+         GameInput.cpp
+         GameHandlers.cpp
+         GameForms.cpp
+         GameFormComponents.cpp
+         Generating Code...
+         Compiling...
+         GameExtraData.cpp
+         GameEvents.cpp
+         GameData.cpp
+         GameCamera.cpp
+         GameAPI.cpp
+         PapyrusObjects.cpp
+         PapyrusEvents.cpp
+         PapyrusVM.cpp
+         PapyrusNativeFunctions.cpp
+         PapyrusClass.cpp
+         PapyrusArgs.cpp
+         PapyrusWornObject.cpp
+         PapyrusWeather.cpp
+         PapyrusWeapon.cpp
+         PapyrusUtility.cpp
+         PapyrusUICallback.cpp
+         PapyrusUI.cpp
+         PapyrusTree.cpp
+         PapyrusTextureSet.cpp
+         PapyrusStringUtil.cpp
+         Generating Code...
+         Compiling...
+         PapyrusSpell.cpp
+         PapyrusSoundDescriptor.cpp
+         PapyrusSound.cpp
+         PapyrusSKSE.cpp
+         PapyrusShout.cpp
+         PapyrusScroll.cpp
+         PapyrusRace.cpp
+         PapyrusQuest.cpp
+         PapyrusPotion.cpp
+         PapyrusPerk.cpp
+         PapyrusObjectReference.cpp
+         PapyrusNetImmerse.cpp
+         PapyrusModEvent.cpp
+         PapyrusMisc.cpp
+         PapyrusMath.cpp
+         PapyrusMagicEffect.cpp
+         PapyrusLeveledSpell.cpp
+         PapyrusLeveledItem.cpp
+         PapyrusLeveledActor.cpp
+         PapyrusKeyword.cpp
+         Generating Code...
+         Compiling...
+         PapyrusInput.cpp
+         PapyrusIngredient.cpp
+         PapyrusHeadPart.cpp
+         PapyrusGame.cpp
+         PapyrusForm.cpp
+         PapyrusFlora.cpp
+         PapyrusEquipSlot.cpp
+         PapyrusEnchantment.cpp
+         PapyrusDefaultObjectManager.cpp
+         PapyrusConstructibleObject.cpp
+         PapyrusCombatStyle.cpp
+         PapyrusColorForm.cpp
+         PapyrusCell.cpp
+         PapyrusBook.cpp
+         PapyrusArt.cpp
+         PapyrusArmorAddon.cpp
+         PapyrusArmor.cpp
+         PapyrusAmmo.cpp
+         PapyrusAlias.cpp
+         PapyrusActorValueInfo.cpp
+         Generating Code...
+         Compiling...
+         PapyrusActorBase.cpp
+         PapyrusActor.cpp
+         PapyrusActiveMagicEffect.cpp
+         GameTypes.cpp
+         CommandTable.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"Debug\skse_version.res" skse_version.rc 
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"C:\Users\croft\Desktop\ASD\Skyrim_SKSE_modding\plugin_example\Debug\skse.lib" /NOLOGO Debug\skse_version.res
+         Debug\CommandTable.obj
+         Debug\GameTypes.obj
+         Debug\PapyrusActiveMagicEffect.obj
+         Debug\PapyrusActor.obj
+         Debug\PapyrusActorBase.obj
+         Debug\PapyrusActorValueInfo.obj
+         Debug\PapyrusAlias.obj
+         Debug\PapyrusAmmo.obj
+         Debug\PapyrusArmor.obj
+         Debug\PapyrusArmorAddon.obj
+         Debug\PapyrusArt.obj
+         Debug\PapyrusBook.obj
+         Debug\PapyrusCell.obj
+         Debug\PapyrusColorForm.obj
+         Debug\PapyrusCombatStyle.obj
+         Debug\PapyrusConstructibleObject.obj
+         Debug\PapyrusDefaultObjectManager.obj
+         Debug\PapyrusEnchantment.obj
+         Debug\PapyrusEquipSlot.obj
+         Debug\PapyrusFlora.obj
+         Debug\PapyrusForm.obj
+         Debug\PapyrusGame.obj
+         Debug\PapyrusHeadPart.obj
+         Debug\PapyrusIngredient.obj
+         Debug\PapyrusInput.obj
+         Debug\PapyrusKeyword.obj
+         Debug\PapyrusLeveledActor.obj
+         Debug\PapyrusLeveledItem.obj
+         Debug\PapyrusLeveledSpell.obj
+         Debug\PapyrusMagicEffect.obj
+         Debug\PapyrusMath.obj
+         Debug\PapyrusMisc.obj
+         Debug\PapyrusModEvent.obj
+         Debug\PapyrusNetImmerse.obj
+         Debug\PapyrusObjectReference.obj
+         Debug\PapyrusPerk.obj
+         Debug\PapyrusPotion.obj
+         Debug\PapyrusQuest.obj
+         Debug\PapyrusRace.obj
+         Debug\PapyrusScroll.obj
+         Debug\PapyrusShout.obj
+         Debug\PapyrusSKSE.obj
+         Debug\PapyrusSound.obj
+         Debug\PapyrusSoundDescriptor.obj
+         Debug\PapyrusSpell.obj
+         Debug\PapyrusStringUtil.obj
+         Debug\PapyrusTextureSet.obj
+         Debug\PapyrusTree.obj
+         Debug\PapyrusUI.obj
+         Debug\PapyrusUICallback.obj
+         Debug\PapyrusUtility.obj
+         Debug\PapyrusWeapon.obj
+         Debug\PapyrusWeather.obj
+         Debug\PapyrusWornObject.obj
+         Debug\PapyrusArgs.obj
+         Debug\PapyrusClass.obj
+         Debug\PapyrusNativeFunctions.obj
+         Debug\PapyrusVM.obj
+         Debug\PapyrusEvents.obj
+         Debug\PapyrusObjects.obj
+         Debug\GameAPI.obj
+         Debug\GameCamera.obj
+         Debug\GameData.obj
+         Debug\GameEvents.obj
+         Debug\GameExtraData.obj
+         Debug\GameFormComponents.obj
+         Debug\GameForms.obj
+         Debug\GameHandlers.obj
+         Debug\GameInput.obj
+         Debug\GameMenus.obj
+         Debug\GameObjects.obj
+         Debug\GamePathing.obj
+         Debug\GameResources.obj
+         Debug\GameRTTI.obj
+         Debug\GameSettings.obj
+         Debug\GameStreams.obj
+         Debug\GameThreads.obj
+         Debug\ScaleformAPI.obj
+         Debug\ScaleformCallbacks.obj
+         Debug\ScaleformExtendedData.obj
+         Debug\ScaleformLoader.obj
+         Debug\ScaleformMovie.obj
+         Debug\ScaleformState.obj
+         Debug\ScaleformTypes.obj
+         Debug\ScaleformVM.obj
+         Debug\Hooks_Camera.obj
+         Debug\Hooks_Debug.obj
+         Debug\Hooks_DirectInput8Create.obj
+         Debug\Hooks_Event.obj
+         Debug\Hooks_Gameplay.obj
+         Debug\Hooks_Handlers.obj
+         Debug\Hooks_Memory.obj
+         Debug\Hooks_NetImmerse.obj
+         Debug\Hooks_ObScript.obj
+         Debug\Hooks_Papyrus.obj
+         Debug\Hooks_SaveLoad.obj
+         Debug\Hooks_Scaleform.obj
+         Debug\Hooks_Threads.obj
+         Debug\Hooks_UI.obj
+         Debug\Colors.obj
+         Debug\CustomMenu.obj
+         Debug\GlobalLocks.obj
+         Debug\HashUtil.obj
+         Debug\InputMap.obj
+         Debug\InternalSerialization.obj
+         Debug\PluginManager.obj
+         Debug\SafeWrite.obj
+         Debug\Serialization.obj
+         Debug\Translation.obj
+         Debug\Utilities.obj
+         Debug\NiControllers.obj
+         Debug\NiExtraData.obj
+         Debug\NiGeometry.obj
+         Debug\NiInterpolators.obj
+         Debug\NiLight.obj
+         Debug\NiMaterial.obj
+         Debug\NiNodes.obj
+         Debug\NiObjects.obj
+         Debug\NiProperties.obj
+         Debug\NiRenderer.obj
+         Debug\NiRTTI.obj
+         Debug\NiSerialization.obj
+         Debug\NiTextures.obj
+         Debug\NiTypes.obj
+         Debug\skse.obj
+     1>LINK : warning LNK4068: /MACHINE not specified; defaulting to X86
+     1>ScaleformVM.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>ScaleformMovie.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         skse.vcxproj -> C:\Users\croft\Desktop\ASD\Skyrim_SKSE_modding\plugin_example\Debug\skse.lib
+       CopyFilesToOutputDirectory:
+         Copying file from "Debug\skse.pdb" to "C:\Users\croft\Desktop\ASD\Skyrim_SKSE_modding\plugin_example\Debug\skse.pdb".
+       PostBuildEvent:
+         Description: Installing DLL...
+         copy "C:\Users\croft\Desktop\ASD\Skyrim_SKSE_modding\plugin_example\Debug\skse.lib" "\skse.lib"
+         :VCEnd
+                 1 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file "Debug\skse.tlog\unsuccessfulbuild".
+         Touching "Debug\skse.tlog\skse.lastbuildstate".
+     1>Done Building Project "C:\Users\croft\Desktop\ASD\Skyrim_SKSE_modding\plugin_example\skse\skse.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:43.89

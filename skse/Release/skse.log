@@ -1,0 +1,25 @@
+﻿Build started 20-Mar-18 5:15:17 PM.
+     1>Project "C:\Users\croft\Desktop\ASD\Skyrim_SKSE_modding\plugin_example\skse\skse.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets(1610,5): warning : The referenced project '..\..\common\common_vc9.vcxproj' does not exist.
+     1>InitializeBuildStatus:
+         Touching "Release\skse.tlog\unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Lib:
+         All outputs are up-to-date.
+         skse.vcxproj -> C:\Users\croft\Desktop\ASD\Skyrim_SKSE_modding\plugin_example\Release\skse.lib
+       PostBuildEvent:
+         Description: Installing DLL...
+         copy "C:\Users\croft\Desktop\ASD\Skyrim_SKSE_modding\plugin_example\Release\skse.lib" "\skse.lib"
+         :VCEnd
+                 1 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file "Release\skse.tlog\unsuccessfulbuild".
+         Touching "Release\skse.tlog\skse.lastbuildstate".
+     1>Done Building Project "C:\Users\croft\Desktop\ASD\Skyrim_SKSE_modding\plugin_example\skse\skse.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.72

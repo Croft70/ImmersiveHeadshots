@@ -1,0 +1,33 @@
+﻿Build started 20-Mar-18 5:17:10 PM.
+     1>Project "C:\Users\croft\Desktop\ASD\Skyrim_SKSE_modding\plugin_example\plugin_example\plugin_example.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\IH_SKSEScript.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\Users\croft\Desktop\ASD\Skyrim_SKSE_modding\plugin_example\\..\common /IC:\Users\croft\Desktop\ASD\Skyrim_SKSE_modding\plugin_example\ /IC:\Users\croft\Desktop\ASD\Skyrim_SKSE_modding\plugin_example\\.. /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D PLUGIN_EXAMPLE_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /FIcommon/IPrefix.h /analyze- /errorReport:prompt MyPlugin.cpp
+         MyPlugin.cpp
+     1>MyPlugin.cpp(222): warning C4101: 'result': unreferenced local variable
+     1>Project "C:\Users\croft\Desktop\ASD\Skyrim_SKSE_modding\plugin_example\plugin_example\plugin_example.vcxproj" (1) is building "C:\Users\croft\Desktop\ASD\Skyrim_SKSE_modding\plugin_example\skse\skse.vcxproj" (3:3) on node 1 (GetResolvedLinkLibs target(s)).
+     3>C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets(1610,5): warning : The referenced project '..\..\common\common_vc9.vcxproj' does not exist.
+     3>Done Building Project "C:\Users\croft\Desktop\ASD\Skyrim_SKSE_modding\plugin_example\skse\skse.vcxproj" (GetResolvedLinkLibs target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\croft\Desktop\ASD\Skyrim_SKSE_modding\plugin_example\Release\IH_SKSEScript.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"exports.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\croft\Desktop\ASD\Skyrim_SKSE_modding\plugin_example\Release\IH_SKSEScript.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\croft\Desktop\ASD\Skyrim_SKSE_modding\plugin_example\Release\IH_SKSEScript.lib" /MACHINE:X86 /SAFESEH /DLL Release\main.obj
+         Release\MyPlugin.obj
+         C:\Users\croft\Desktop\ASD\Skyrim_SKSE_modding\plugin_example\Release\common.lib
+         C:\Users\croft\Desktop\ASD\Skyrim_SKSE_modding\plugin_example\Release\skse.lib
+            Creating library C:\Users\croft\Desktop\ASD\Skyrim_SKSE_modding\plugin_example\Release\IH_SKSEScript.lib and object C:\Users\croft\Desktop\ASD\Skyrim_SKSE_modding\plugin_example\Release\IH_SKSEScript.exp
+     1>IH_SKSEScript.exp : warning LNK4070: /OUT:plugin_example.dll directive in .EXP differs from output filename 'C:\Users\croft\Desktop\ASD\Skyrim_SKSE_modding\plugin_example\Release\IH_SKSEScript.dll'; ignoring directive
+         Generating code
+         1 of 633 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           1 functions had inline decision re-evaluated but remain unchanged
+         Finished generating code
+     1>IH_SKSEScript.exp : warning LNK4070: /OUT:plugin_example.dll directive in .EXP differs from output filename 'C:\Users\croft\Desktop\ASD\Skyrim_SKSE_modding\plugin_example\Release\IH_SKSEScript.dll'; ignoring directive
+         plugin_example.vcxproj -> C:\Users\croft\Desktop\ASD\Skyrim_SKSE_modding\plugin_example\Release\IH_SKSEScript.dll
+       FinalizeBuildStatus:
+         Deleting file "Release\IH_SKSEScript.tlog\unsuccessfulbuild".
+         Touching "Release\IH_SKSEScript.tlog\IH_SKSEScript.lastbuildstate".
+     1>Done Building Project "C:\Users\croft\Desktop\ASD\Skyrim_SKSE_modding\plugin_example\plugin_example\plugin_example.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.44

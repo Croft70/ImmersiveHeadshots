@@ -1,0 +1,73 @@
+﻿Build started 20-Mar-18 5:10:19 PM.
+     1>Project "C:\Users\croft\Desktop\ASD\Skyrim_SKSE_modding\plugin_example\common\common.vcxproj" on node 2 (Rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\common.tlog\common.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\common.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\Users\croft\Desktop\ASD\Skyrim_SKSE_modding\plugin_example\ /IC:\Users\croft\Desktop\ASD\Skyrim_SKSE_modding\plugin_example\\.. /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"Release\\" /Fd"Release\common.pdb" /Gd /TP /FIcommon/IPrefix.h /analyze- /errorReport:prompt IBufferStream.cpp IDataStream.cpp IFileStream.cpp ISegmentStream.cpp IDebugLog.cpp IErrors.cpp IEvent.cpp IInterlockedLong.cpp IMutex.cpp IReadWriteLock.cpp IThread.cpp IArchive.cpp IDatabase.cpp IFIFO.cpp IRangeMap.cpp ISingleton.cpp ITextParser.cpp ITypes.cpp IConsole.cpp IDynamicCreate.cpp ITimer.cpp IMemPool.cpp IPipeClient.cpp IPipeServer.cpp IDirectoryIterator.cpp IPrefix.cpp
+         IBufferStream.cpp
+         IDataStream.cpp
+         IFileStream.cpp
+         ISegmentStream.cpp
+         IDebugLog.cpp
+         IErrors.cpp
+         IEvent.cpp
+         IInterlockedLong.cpp
+         IMutex.cpp
+         IReadWriteLock.cpp
+         IThread.cpp
+         IArchive.cpp
+         IDatabase.cpp
+         IFIFO.cpp
+         IRangeMap.cpp
+         ISingleton.cpp
+         ITextParser.cpp
+         ITypes.cpp
+         IConsole.cpp
+         IDynamicCreate.cpp
+         Generating Code...
+         Compiling...
+         ITimer.cpp
+         IMemPool.cpp
+         IPipeClient.cpp
+         IPipeServer.cpp
+         IDirectoryIterator.cpp
+         IPrefix.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"C:\Users\croft\Desktop\ASD\Skyrim_SKSE_modding\plugin_example\Release\common.lib" /NOLOGO Release\IBufferStream.obj
+         Release\IDataStream.obj
+         Release\IFileStream.obj
+         Release\ISegmentStream.obj
+         Release\IDebugLog.obj
+         Release\IErrors.obj
+         Release\IEvent.obj
+         Release\IInterlockedLong.obj
+         Release\IMutex.obj
+         Release\IReadWriteLock.obj
+         Release\IThread.obj
+         Release\IArchive.obj
+         Release\IDatabase.obj
+         Release\IFIFO.obj
+         Release\IRangeMap.obj
+         Release\ISingleton.obj
+         Release\ITextParser.obj
+         Release\ITypes.obj
+         Release\IConsole.obj
+         Release\IDynamicCreate.obj
+         Release\ITimer.obj
+         Release\IMemPool.obj
+         Release\IPipeClient.obj
+         Release\IPipeServer.obj
+         Release\IDirectoryIterator.obj
+         Release\IPrefix.obj
+         common.vcxproj -> C:\Users\croft\Desktop\ASD\Skyrim_SKSE_modding\plugin_example\Release\common.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\common.tlog\unsuccessfulbuild".
+         Touching "Release\common.tlog\common.lastbuildstate".
+     1>Done Building Project "C:\Users\croft\Desktop\ASD\Skyrim_SKSE_modding\plugin_example\common\common.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:16.13
